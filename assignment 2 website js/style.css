@@ -1,0 +1,53 @@
+body{
+    background-color: cyan;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-cup{
+    background-color: white;
+    border: 4px black solid;
+    border-radius: 0 0 50px 50px;
+    height: 300px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.small-cups{
+    display: flex;
+    align-items: center;
+}
+.percent {
+    background-color:cyan;
+    display:flex;
+    align-items: center;
+}
+
+.cup.cup-small{
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 0 0 20px 20px;
+    height: 100px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+.cup.cup-small.full{
+    background-color: blue;
+}
+
+.remaining{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
