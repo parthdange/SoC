@@ -1,0 +1,269 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: monospace, 'major mono display';
+    transition: color 2s ease-in-out;
+    transition-delay: 1s;
+    
+}   
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.dp{
+    height:30vh;
+    border-radius:100%;
+    text-align:center;
+    position:absolute;
+    top:20vh;
+    left:50%;
+    transform: translateX(-50%);
+    transition: transform 1s ease-in;
+}
+
+.dp:hover{
+    opacity:0.5;
+}
+
+h1{
+    position: absolute;
+    top:50vh;
+    text-align:center;
+    font-size: 15vh;
+    left:50%;
+    transform: translatex(-50%);
+    text-align: center;
+    max-height: 20vh;
+    width:90%;
+}
+
+.bg{
+    height:100vh;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    z-index: -1;
+}
+
+.banner{
+    display:grid;
+    position: absolute;
+    top:80vh;
+    left:50%;
+    transform: translatex(-50%);
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 2.5vh;
+    margin:5vh;
+    font-size: larger;
+    grid-column-gap: 20px;
+    background-color: rgba(66, 66, 66, 0.651);
+}
+
+h2{
+    background-color: rgba(66, 66, 66, 0.651);
+    margin:20px;
+    padding:10px;
+    text-align:center;
+    position: relative;
+    top:20vh;
+}
+#about{
+    position: absolute;
+    top:100vh;
+    left:50%;
+    transform: translatex(-50%);
+    text-align: center;
+    width: 90%;
+}
+
+.bg2{
+    
+    height:100vh;
+    width:100%;
+    position: absolute;
+    top:100vh;
+    left:0px;
+    z-index:-1;
+}
+
+.about{
+    background-color: rgba(66, 66, 66, 0.651);
+    margin:20px;
+    padding:10px;
+    display: block;
+    max-height:80vh;
+    position: absolute;
+    top:120vh;
+    left:50%;
+    transform: translatex(-50%);
+}
+
+#gallery{
+    position: absolute;
+    top:200vh;
+    left:50%;
+    transform: translatex(-50%);
+    text-align: center;
+    width:90%;
+}
+
+#grid{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    
+    grid-gap:10px;
+    display:grid;
+    width: 80vh;
+    height:80vh;
+    margin:0 10vh;
+    position:absolute;
+    top:220vh;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.one{
+    grid-column:1/4;
+    grid-row:1/2;
+    background:url(pic4.png);
+    background-size: cover;
+}
+
+.two{
+    grid-column:4/5;
+    grid-row:1/4;
+    background:url(pic3.jpg);
+    background-size: cover;
+}
+
+.three{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-size: cover;
+}
+
+video{
+    object-fit:cover;
+}
+
+.four{
+    grid-column: 2/5;
+    grid-row: 4/5;
+    background:url(pic1.jpg);
+    background-size: cover;
+}
+
+.five{
+    grid-column:1/2;
+    grid-row:2/5;
+    background:url(pic2.jpg);
+    background-size: cover;
+}
+
+#form{
+    position: absolute;
+    top:300vh;
+    left:50%;
+    transform: translateX(-50%);
+    width:90%;
+}
+
+.form{
+    position: absolute;
+    top:310vh;
+    left:50%;
+    transform: translateX(-50%);
+    width:50%;
+    text-align: center;
+    padding:5%;
+}
+
+label{
+    display:inline-block;
+    width:20%;
+    margin-top:10vh;
+}
+
+input,textarea{
+    width:30%;
+}
+
+button{
+    margin:10vh;
+    margin-bottom:0;
+    height:10vh;
+    width:20%;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bg3{
+    
+    height:100vh;
+    width:100%;
+    position: absolute;
+    top:300vh;
+    left:0px;
+    z-index:-1;
+}
+
+#contact{
+    position: absolute;
+    top:400vh;
+    left:50%;
+    transform: translateX(-50%);
+    width:90%;
+}
+
+.contactme{
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 20vh;
+    display: grid;
+    position: absolute;
+    top:420vh;
+    left:50%;
+    transform: translateX(-50%);
+    width:50%;
+    text-align:center;
+    column-gap: 5%;
+    background-color: rgba(167, 167, 167, 0.651);
+}
+
+
+#mail{
+    background:url(mail.png);
+    background-size: cover;
+}
+#linkedin{
+    background:url(linkedin.png);
+    background-size: cover;
+}
+
+#insta{
+    background: url(insta.png);
+    background-size: cover;
+}
+
+#whatsapp{
+    background: url(whatsapp.png);
+    background-size: cover;
+}
+
+.counter{
+    position: absolute;
+    top:480vh;
+    left:50%;
+    transform: translateX(-50%);
+    width:50%;
+    text-align:center;
+}
+
+#number{
+    background-color: white;
+    color: black;
+    font-size: 20vh;
+}
