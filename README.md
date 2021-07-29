@@ -1,5 +1,5 @@
 # Read Me
-This is the SoC project by Parth Dange
+This is the SoC project by Parth Dange for Anime Club IITB website using Django
 
 First, I learnt HTML and CSS and used them to make a personal webpage in April 2021. The repository link for its code is : https://github.com/SoC-Club-Website/assignment-1-parthdange and the webpage link is https://soc-club-website.github.io/assignment-1-parthdange/ and the code is uploaded in this repo as well.
 
